@@ -10,7 +10,7 @@ public:
                 mx = 0;
             }
             if (prices[i] < mn) mn = prices[i];
-            cout << i << " " << prices[i] << " " << mn << " " << mx << " " << res<< '\n';
+            
         } 
         if (mx) res += (mx - mn);
         return res;
